@@ -18,3 +18,4 @@ def get_days_from_today(date: str) -> int:
     
 get_days_from_today("2025-03-")
 get_days_from_today("2025-03-12")
+

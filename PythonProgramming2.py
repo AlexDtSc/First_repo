@@ -820,15 +820,23 @@ while True:
 
 
 ✂️ Цей код можна запустити!
+'''
+# a = 0
+# while a < 6:
+#     a = a + 1
+#     if not a % 2:   # теж саме що a%2 != 0  a не ділиться без остачі на 2, тобто a є непарним числом
+#         continue
+#     print(a)
 
-a = 0
-while a < 6:
-    a = a + 1
-    if not a % 2:   # теж саме що a%2 != 0
-        continue
-    print(a)
 
+# a = 0
+# while a < 6:
+#     a = a + 1
+#     if a % 2:   # теж саме що a%2 == 0  a ділиться без остачі на 2, тобто a є парним числом
+#         continue
+#     print(a)
 
+'''
 
 У консолі ви побачите:
 
@@ -3147,12 +3155,12 @@ print(factorial(5))
 # #    a+=1 
 # #    if a>1000: break
 
-# # a=1                  
-# # while True:
-# #    a+=1
-# #    if a % 2 == 0: continue  # continue перейти до наступної ітерації, не виконуючи дій під час continue
-# #    print(a) 
-# #    if a>1000: break         # break перервати цикл
+# a=1                  
+# while True:
+#    a+=1
+#    if a % 2 == 0: continue  # continue перейти до наступної ітерації, не виконуючи дій під час continue
+#    print(a) 
+#    if a>1000: break         # break перервати цикл
 
 
 # # a=1
